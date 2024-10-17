@@ -1,188 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Govind Tank - Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-5" style="background-image: url('https://source.unsplash.com/random/1920x1080'); background-size: cover; background-position: center;">
-        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.5); padding: 50px;">
+
+    <header>
+        <div class="container">
             <h1>Govind Tank</h1>
-            <p>Senior Mobile Application Developer</p>
-            <a href="mailto:govindtank600@gmail.com" class="btn btn-primary mt-3">Contact Me</a>
+            <h2>Senior Mobile Application Developer</h2>
+            <a href="mailto:govindtank600@gmail.com" class="btn">Contact Me</a>
         </div>
     </header>
-    <section class="container my-5" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p>I work as a freelancer cum consultant for mobile application development. I have tried my hands on designing and developing mobile and web applications using various programming languages like; Java, Kotlin, Objective-C, C++. Also have experience building desktop application with .NET technology. I have tried my skills in building complete mobile applications from system-requirement generation, prototyping, designing, coding, deploying.</p>
-    </section>
-    <section class="container my-5" data-aos="fade-up">
-        <h2>Skills</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Languages</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>HTML5</li>
-                    <li>SASS</li>
-                    <li>Java</li>
-                    <li>Dart</li>
-                    <li>Kotlin</li>
-                    <li>C++</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h3>Frameworks</h3>
-                <ul>
-                    <li>Kotlin</li>
-                    <li>React Native</li>
-                    <li>Node</li>
-                    <li>Flutter</li>
-                    <li>Ionic</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Sublime Text</li>
-                    <li>Chrome DevTools</li>
-                    <li>npm</li>
-                    <li>Android Studio</li>
-                    <li>Postman</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="container my-5" data-aos="fade-up">
 
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I work as a freelancer cum consultant for mobile application development. I have tried my hands on designing and developing mobile and web applications using various programming languages like; Java, Kotlin, Objective-C, C++. Also have experience building desktop application with .NET technology. I have tried my skills in building complete mobile applications from system-requirement generation, prototyping, designing, coding, deploying.</p>
+        </div>
     </section>
-    <section class="container my-5" data-aos="fade-up">
-        <h2>Education & Experience</h2>
-        <ul>
-            <li><strong>Rysun Labs</strong> - Apr 2022 - Present - Senior Mobile Developer</li>
-            <li><strong>Phycom Corporations</strong> - Apr 2021 - Mar 2022 - Associate Android Developer</li>
-            <li><strong>Micro App Solutions</strong> - Aug 2017 - Dec 2019 - Remote Android Developer cum Consultant</li>
-            <li><strong>Stimulus Consultancy</strong> - Apr 2016 - Aug 2017 - Android Developer as Fresher</li>
-            <li><strong>Bhramakar IT Solution Pvt. Ltd.</strong> - Apr 2015 - Feb 2016 - Front-End Developer as Intern</li>
-            <li><strong>Ahmedabad University</strong> - 2013 - 2015 - M.C.A Computer Application</li>
-            <li><strong>Navgujarat College, Gujarat University</strong> - 2010 - 2013 - B.C.A Computer Application</li>
-        </ul>
-    </section>
-    <section class="container my-5" data-aos="fade-up">
-        <h2>Projects</h2>
-        <div class="accordion" id="projectsAccordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        1. Project Name: Lacrosse View/TFA View
-                        </button>
-                    </h2>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-item">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>SASS</li>
+                        <li>Java</li>
+                        <li>Dart</li>
+                        <li>Kotlin</li>
+                        <li>C++</li>
+                    </ul>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#projectsAccordion">
-                    <div class="card-body">
-                        <p>Project Details: (Android Applications for the International Client - Lacrosse Technology)</p>
-                        <ul>
-                            <li>Environment: Android Studio 2020.3.1 IDE, Android SDK 31</li>
-                            <li>Technology: Android, Firebase, Kotlin, Dagger2, MVVM, LRU Cache</li>
-                            <li>Tenure: 1 Year</li>
-                            <li>Team Size: 5</li>
-                            <li>Responsibilities:
-                                <ul>
-                                    <li>Implemented new feature requests from client for both flavors of an app.</li>
-                                    <li>Responsible for day-to-day project implementation.</li>
-                                    <li>Migrated JAVA codes into Kotlin Language Format.</li>
-                                    <li>I was responsible for API Integration with cache management.</li>
-                                    <li>Involved in unit and functional testing.</li>
-                                    <li>Providing the production support and maintenance for the system.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="skill-item">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Node</li>
+                        <li>Flutter</li>
+                        <li>Ionic</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            3. Project Name: Fastrrr - Floating Apps
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#projectsAccordion">
-                    <div class="card-body">
-                        <p>Project Details: (An android application with AWS back-end, Admin Panel designed in Angular)</p>
-                        <ul>
-                            <li>Client: Domestic Client (AMI Cooling System)</li>
-                            <li>Environment: Android Studio 2020.3.1 IDE, Android SDK 31</li>
-                            <li>Technology: Android, Firebase, Kotlin, Dagger2, MVVM, LRU Cache</li>
-                            <li>Tenure: 1 Year</li>
-                            <li>Team Size: 5</li>
-                            <li>Responsibilities:
-                                <ul>
-                                    <li>Implemented new feature requests from client for both flavors of an app.</li>
-                                    <li>Responsible for day-to-day project implementation.</li>
-                                    <li>Migrated JAVA codes into Kotlin Language Format.</li>
-                                    <li>I was responsible for API Integration with cache management.</li>
-                                    <li>Involved in unit and functional testing.</li>
-                                    <li>Providing the production support and maintenance for the system.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            10. Project Name: Max’s Fun Club
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#projectsAccordion">
-                    <div class="card-body">
-                        <p>Project Details: (CityTadka is the one stop solution for a city to know its people, places, and stories. Discover some amazing unexplored places of the city, find food, fashion, and hangouts, explore city’s gems – the people, get to know about the events and shows – everything in one app)</p>
-                        <ul>
-                            <li>Technology: Android, Java, Angular, AWS, Razor Pay</li>
-                            <li>Client: Domestic Client (CityTadka LLP)</li>
-                            <li>Tenure: 10 Months</li>
-                            <li>Team Size: 4</li>
-                            <li>Responsibilities:
-                                <ul>
-                                    <li>Devised documentation for app, detailing operation aspects, functions, capabilities and features.</li>
-                                    <li>Worked with teams from other projects and departments to create apps and data driven by customer input.</li>
-                                    <li>Employed third-party APIs to facilitate seamless access to external, also integrated payment gateway (Razor Pay).</li>
-                                </ul>
-                            </li>
-                        </ul>
-                            10. Project Name: Max’s Fun Club
-                        <a href="https://play.google.com/store/apps/details?id=stimulus.citytadka&hl=en" class="btn btn-primary">Demo</a>
-                    </div>
+                <div class="skill-item">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Sublime Text</li>
+                        <li>Chrome DevTools</li>
+                        <li>npm</li>
+                        <li>Android Studio</li>
+                        <li>Postman</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container my-5" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Mail me your application requirement on <a href="mailto:govindtank600@gmail.com">govindtank600@gmail.com</a>.</p>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Rysun Labs</strong> - Apr 2022 - Present - Senior Mobile Developer</li>
+                <li><strong>Phycom Corporations</strong> - Apr 2021 - Mar 2022 - Associate Android Developer</li>
+                <li><strong>Micro App Solutions</strong> - Aug 2017 - Dec 2019 - Remote Android Developer cum Consultant</li>
+                <li><strong>Stimulus Consultancy</strong> - Apr 2016 - Aug 2017 - Android Developer as Fresher</li>
+                <li><strong>Bhramakar IT Solution Pvt. Ltd.</strong> - Apr 2015 - Feb 2016 - Front-End Developer as Intern</li>
+            </ul>
+        </div>
     </section>
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Govind Tank. All rights reserved.</p>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Ahmedabad University</strong> - 2013 - 2015 - M.C.A Computer Application</li>
+                <li><strong>Navgujarat College, Gujarat University</strong> - 2010 - 2013 - B.C.A Computer Application</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Mail me your application requirement on <a href="mailto:govindtank600@gmail.com">govindtank600@gmail.com</a>.</p>
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Govind Tank. All rights reserved.</p>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
