@@ -69,6 +69,61 @@ section {
 }
 
 /* Projects */
+.project-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.project-item {
+    flex: 0 0 auto;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.project-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item ul li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.project-item ul li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.project-item ul li ul li {
+    margin-bottom: 5px;
+    font-size: 0.85em;
+    color: #777;
+}
 #projects {
     background: url('https://example.com/background.jpg') no-repeat center center fixed;
     background-size: cover;
