@@ -69,10 +69,28 @@ section {
 }
 
 /* Projects */
+#projects {
+    background: url('https://example.com/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 40px 0;
+    color: #fff;
+}
+
 #projects .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
+}
+
+#projects .project-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .project-item:hover {
+    transform: scale(1.05);
 }
 
 /* Contact */
