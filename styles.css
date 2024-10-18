@@ -83,7 +83,7 @@ section {
 .project-item {
     flex: 0 0 auto;
     width: 300px;
-    background: #fff;
+    background: #ffffff; /* White background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
