@@ -7,6 +7,21 @@ body {
     color: #333; /* Dark text color */
 }
 
+body.dark-theme {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.dark-theme header {
+    background-color: #1f1f1f; /* Dark header background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.dark-theme .project-item {
+    background-color: #1f1f1f; /* Dark project item background */
+    color: #e0e0e0; /* Light text color */
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -128,6 +143,7 @@ section {
     color: #777;
 }
 #projects {
+    background-color: #ffffff; /* Minimalistic white background */
     background: url('https://example.com/background.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 40px 0;
