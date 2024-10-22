@@ -11,4 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
             themeToggle.textContent = 'Switch to Dark Theme';
         }
     });
+    
 });
+function scrollProjects(direction) {
+    const container = document.getElementById('projectContainer');
+    const scrollAmount = 300; // Adjust the scroll amount based on your preference
+
+    if (direction === 'left') {
+        container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else {
+        container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+}
